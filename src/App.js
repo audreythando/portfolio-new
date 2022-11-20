@@ -2,7 +2,8 @@ import React from "react";
 import About from "./components/About";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Resume from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Projects";
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <Navbar/>
       <Home />
       <About/>
-      <Resume/>
+    
       <Projects/>
       <Contact/>
       
