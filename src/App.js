@@ -2,7 +2,7 @@ import React from "react";
 import About from "./components/About";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Resume from "./components/Resume";
+import Resume from "./components/Skills";
 
 
 function App() {
@@ -12,6 +12,8 @@ function App() {
       <Home />
       <About/>
       <Resume/>
+      <Projects/>
+      <Contact/>
       
     </div>
   );
